@@ -1,0 +1,289 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+
+width: 60%;
+margin: 0px auto;
+background-color: aliceblue;
+text-align: center;
+
+}
+
+/* social media connection button  */
+.social-box{
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px 5px 20px;
+    margin: 5px 20px;
+    border-radius: 7px;    
+}
+.social{
+    padding-top: 5px;
+}
+
+.face{
+    background-color: #344294;
+}
+
+.twit{
+    background-color: #669ef2;
+}
+
+.goog{
+    background-color: #f50a0a;
+}
+
+/* this is d OR button code */
+.or{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    
+}
+
+.or::before, .or::after{
+    content: "";
+    flex: 0.5;
+    /* padding: 1px; */
+    height: 1px;
+    background-color: red;
+    margin: 30px 10px;
+
+}
+
+.ro{
+    background-color: whitesmoke;
+    border: 1px solid #362727;
+    border-radius: 100%;
+    padding: 5px 7px;
+    
+    
+
+}
+
+/* controlled input from here */
+
+input[type=text]{
+    width: 60%;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+input[type=text]:focus{
+    font-size: 15px;
+    outline: none;
+    border: 1px solid red;
+}
+
+
+input[type=email]{
+    width: 60%;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+    text-indent: 15px;
+}
+
+input[type=email]:focus{
+    font-size: 15px;
+    outline: none;
+    border: 1px solid red;
+}
+
+input[type=password]{
+    width: 60%;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+    text-indent: 15px;
+}
+
+input[type=password]:focus{
+    font-size: 15px;
+    outline: none;
+    border: 1px solid red;
+}
+
+input[type=button]{
+    width: 45%;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 15px;
+    padding: 10px;
+    background-color: #27e427;
+}
+
+input[type=button]:focus{
+    font-size: 15px;
+    outline: none;
+    border: 1px solid red;
+}
+
+
+.us{
+    position: relative;
+    top: 0px;
+    left: 35px;
+   
+}
+.em{
+    position: relative;
+    /* top: 325px; */
+    left: 35px;
+}
+.pa{
+    position: relative;
+    /* top:395px; */
+    left: 35px;
+}
+.co{
+    position: relative;
+    left: 35px;
+}
+/* Input details ends here */
+
+.fa-brands{
+    color: white;
+    position: relative;
+    right: -38px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+::placeholder{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:687px) {
+
+    .social{
+       
+        display: block;
+        height: 165px;
+        width: 100%;
+    }
+
+    .social-box{
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+
+    }
+    .face{
+        position: relative;
+        top: 0px; 
+        right: 0px;
+        padding: 5px 70px;
+        
+    }
+    .twit{
+        position: relative;
+        top: 50px;
+        right: 0px;
+        padding: 0px 50px;
+        padding: 5px 70px;
+    }
+
+    .goog{
+        position: relative;
+        top: 90px;
+        padding: 0px 50px;
+        padding: 5px 70px;
+
+    }
+
+    .iconf{
+    position: absolute;
+    top: 125px;
+    left: -180px;    
+
+    }
+    .icong{
+        position: absolute;
+        top: 260px;
+        left: -180px;
+    }
+
+    .icont{
+        position: absolute;
+        top: 192px;
+        left: -180px;
+    }
+
+
+    
+}
+
+
+@media (min-width:400px) and (max-width:590px) {
+    
+    .iconf{
+        position: absolute;
+        top: 135px;
+        left: -180px;    
+    
+        }
+        .icong{
+            position: absolute;
+            top: 270px;
+            left: -180px;
+        }
+    
+        .icont{
+            position: absolute;
+            top: 202px;
+            left: -180px;
+        }
+
+}
+
+@media (min-width:300px) and (max-width:390px){
+
+    .iconf{
+        position: absolute;
+        top: 185px;
+        left: -180px;    
+    
+        }
+        .icong{
+            position: absolute;
+            top: 320px;
+            left: -180px;
+        }
+    
+        .icont{
+            position: absolute;
+            top: 252px;
+            left: -180px;
+        }
+
+
+}
